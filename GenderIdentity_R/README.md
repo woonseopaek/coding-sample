@@ -40,8 +40,8 @@ Requires R (≥ 4.0) with `readr`, `dplyr`, `stringr`, `tidyr`, `fixest`, and `v
 The data are not included, as I am not authorized to re-distribute them. Instead, they are public-use microdata and can be downloaded following the process below. 
 
 To download:
-1. Sign up and log in to MDIS (https://mdis.kostat.go.kr), then go to **Download Service** (공공용 다운로드).
-2. Select *Local Area Labour Force Survey* and extract each year in **R format**:
+1. Sign up and log in to MDIS (https://mdis.kostat.go.kr), then go to *Download Service* (공공용 다운로드).
+2. Select *Local Area Labour Force Survey* and extract each year in R format:
    - 2008–2009: annual data, Type A (시군)
    - 2010–2012: Q4 data, Type A (시군)
    - 2013–2024: second-half data, Type C (시도, with supplementary items)
