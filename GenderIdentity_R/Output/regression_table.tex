@@ -1,0 +1,42 @@
+
+\begin{table}[htbp]
+   \caption{\label{tab:main} Impact of Gender Norm Challenges and Violations on Marriage Rates}
+   \bigskip
+   \centering
+   \begin{tabular}{lccc}
+      \toprule
+       & \multicolumn{3}{c}{ShareMarried}\\
+                                                  & (1)             & (2)             & (3)\\  
+      \midrule 
+      PrFemaleEarnsMore                           & -0.0667         & -0.0647         & -0.1131$^{**}$\\   
+                                                  & (0.0427)        & (0.0414)        & (0.0391)\\   
+      GapLower                                    & -0.0010$^{***}$ & -0.0010$^{***}$ & -0.0005$^{**}$\\   
+                                                  & (0.0003)        & (0.0003)        & (0.0002)\\   
+      GapHigher                                   & -0.0007$^{**}$  & -0.0007$^{*}$   & -0.0004\\   
+                                                  & (0.0003)        & (0.0003)        & (0.0003)\\   
+      Relative Income                             &                 & -0.9518         & -1.977\\   
+                                                  &                 & (1.636)         & (1.757)\\   
+      Female Average Years of Education           &                 &                 & -0.0053\\   
+                                                  &                 &                 & (0.0043)\\   
+      Male Average Years of Education             &                 &                 & -0.0285$^{*}$\\   
+                                                  &                 &                 & (0.0137)\\   
+      Sex Ratio                                   &                 &                 & -0.0274$^{***}$\\   
+                                                  &                 &                 & (0.0051)\\   
+      Controls for deciles and averages of income & Yes             & Yes             & Yes\\  
+       \\
+      Observations                                & 1,680           & 1,680           & 1,680\\  
+      R$^2$                                       & 0.99606         & 0.99607         & 0.99645\\  
+       \\
+      Marriage market fixed effects               & $\checkmark$    & $\checkmark$    & $\checkmark$\\   
+      Year fixed effects                          & $\checkmark$    & $\checkmark$    & $\checkmark$\\   
+      Year-Region fixed effects                   & $\checkmark$    & $\checkmark$    & $\checkmark$\\   
+      Year-Education group fixed effects          & $\checkmark$    & $\checkmark$    & $\checkmark$\\   
+      Year-Age group fixed effects                & $\checkmark$    & $\checkmark$    & $\checkmark$\\   
+      \bottomrule
+   \end{tabular}
+   
+   \par \raggedright 
+   Each observation represents a marriage market. Estimates are obtained using a linear probability model, weighted by the number of men in each marriage market. Standard errors clustered at the regional level are reported in parentheses. Data Source: Local Area Labour Force Survey (Ministry of Data and Statistics, 2025b).
+\end{table}
+
+
