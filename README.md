@@ -4,7 +4,7 @@ Coding samples by Woonseo Paek.
 
 ## Contents
 
-- `GenderIdentity_R/`: Code for *How Do Marriage Markets Respond to Relative Income Under Gender Identity Norms?: Evidence from South Korea* (with Jingyu Hea).
+- `GenderIdentity_R/`: R Code for *How Do Marriage Markets Respond to Relative Income Under Gender Identity Norms?: Evidence from South Korea* (with Jingyu Hea).
     Cleans and constructs data, conducts Monte Carlo simulations, and runs regressions. See folder `README.md` for details. 
   
 ## Note
